@@ -1,0 +1,8 @@
+{
+  "label": "Run Chess App",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to run the Chess AI Game on emulator or real device."
+  }
+}

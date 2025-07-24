@@ -2,46 +2,63 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Chess AI Game
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to **Chess AI Game** - A complete chess gaming platform that offers both single-player and multiplayer experiences. Built with advanced AI technology, this chess game provides an all-in-one solution for chess enthusiasts of all skill levels.
+
+Players can challenge intelligent AI bots, compete against other players online, solve chess puzzles, and practice their skills. The game features multiple difficulty levels, various board themes, background music, and support for multiple languages to enhance the gaming experience.
+
+This full-featured chess application comes with everything you need for an engaging chess experience, including intelligent AI opponents, multiplayer functionality, puzzle challenges, and customizable themes. The game is well-designed and offers hours of strategic entertainment.
+
+## Overview
+
+Chess AI Game is a comprehensive chess application that offers:
+
+- AI bot gameplay with multiple difficulty levels
+- Multiplayer online matches
+- Chess puzzle challenges
+- Practice mode for skill improvement
+- Multiple board themes and customization options
 
 ## Getting Started
 
-Get started by **creating a new site**.
+This is a key step to setup the project :
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+1. **Game Configuration**
+   - AI Engine Setup
+   - Game settings configuration:
+     - Difficulty levels
+     - Board themes
+     - Language preferences
+     - Audio settings
 
-### What you'll need
+2. **AI Bot Integration**
+   - Intelligent chess engine implementation
+   - Multiple difficulty levels from beginner to master
+   - Position evaluation and move calculation
+   - Opening book and endgame tablebase integration
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+3. **Multiplayer Features**
+   - Online matchmaking lobby system
+   - Real-time game synchronization
+   - Player rating and ranking system
+   - Game history and statistics tracking
 
-## Generate a new site
+4. **Puzzle System**
+   - Chess puzzle database integration
+   - Daily puzzle challenges
+   - Difficulty progression system
+   - Solution hints and explanations
+   - Progress tracking and achievements
 
-Generate a new Docusaurus site using the **classic template**.
+## Next Steps
 
-The classic template will automatically be added to your project after you run the command:
+Explore the following sections to learn more about implementing specific features:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- Setup Chess AI Game
+- AI Engine Configuration
+- Multiplayer Implementation
+- Puzzle System Setup
+- Theme Customization
+- User Authentication
+- Game Statistics and Analytics
