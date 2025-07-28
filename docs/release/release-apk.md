@@ -39,7 +39,7 @@ When you run this command, you'll be prompted to enter:
 
 ## Step 2: Create key.properties File
 
-Create a file named [`key.properties`](android/app/key.properties:1) in your Flutter project's `android/app/` directory with the following content:
+Create a file named `key.properties` in your Flutter project's `android/app/` directory with the following content:
 
 ```properties
 storePassword=upload
@@ -58,7 +58,7 @@ storeFile=C:/Users/DcWhale/upload-keystore.jks
 
 ### Security Considerations
 
-- **Never commit** the [`key.properties`](android/app/key.properties:1) file to version control
+- **Never commit** the `key.properties` file to version control
 - Add `android/app/key.properties` to your `.gitignore` file
 - Store your keystore file in a secure location
 - Consider using environment variables for production builds
@@ -105,11 +105,11 @@ If you used `--split-per-abi`, you'll find multiple APK files:
 ### Common Issues
 
 1. **"Keystore file not found"**
-   - Verify the `storeFile` path in [`key.properties`](android/app/key.properties:1)
+   - Verify the `storeFile` path in `key.properties`
    - Use absolute paths with forward slashes
 
 2. **"Wrong keystore password"**
-   - Double-check your passwords in [`key.properties`](android/app/key.properties:1)
+   - Double-check your passwords in `key.properties`
    - Ensure you're using the correct keystore file
 
 3. **"Key not found"**
