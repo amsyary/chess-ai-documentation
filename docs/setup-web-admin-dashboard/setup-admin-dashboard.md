@@ -5,7 +5,7 @@ sidebar_label: Setup Web Admin Dashboard
 
 # Setup Web Admin Dashboard
 
-Admin Dashboard is a web-based control panel designed to manage and monitor your livestreaming app, that contains features like user management, streaming control, settings & configuration, and more.
+Admin Dashboard is a web-based control panel designed to manage and monitor your Chess app, that contains features like user management, streaming control, settings & configuration, and more.
 
 Our Admin Dashboard is build on React JS with Typescript, and Shadcn UI for the UI components.
 
@@ -17,7 +17,7 @@ Before starting, you need to have the following installed:
 
 ## Step 1: Install dependencies
 
-1. Open a terminal and navigate to your `/MegooLiveAdmin` directory, and install all the dependency :
+1. Open a terminal and navigate to your `/AdminDashboard` directory, and install all the dependency :
 
 ```
 npm install
@@ -25,7 +25,7 @@ npm install
 
 ## Step 2. Create .env file
 
-1. Create a new file named `.env` in the root of your project `/MegooLiveAdmin` directory.
+1. Create a new file named `.env` in the root of your project `/AdminDashboard` directory.
 
 2. Copy the content of `.env.example` file and paste it in the `.env` file.
 
@@ -76,7 +76,7 @@ you can now open the URL that you get from the terminal, and log in using your e
 If it's just blank, it means that the `.env` file is not set up correctly, check the console to see the error.
 :::
 
-Now you use the Admin Dashboard to manage your livestreaming app.
+Now you use the Admin Dashboard to manage your ChessAi Game.
 
 ![Admin Dashboard](./assets/Screenshot%202025-01-06%20110739.png)
 

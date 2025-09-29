@@ -25,7 +25,7 @@ To install and run Flutter, your development environment must meet these minimum
 
 ### 2. IOS Development
 
-to develope MeGooLive App into IOS App, it is mandatory to use MacOS Machine
+to develope ChessAi into IOS App, it is mandatory to use MacOS Machine
 
 - Follow [this guide](https://docs.flutter.dev/get-started/install/macos) to setup Flutter in MacOS
   
